@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../css/main.css" />
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-latest.js"
+    ></script>
+    <script type="text/javascript">
+      $("#splash").ready();
+      {
+        $("#main").load("home.html");
+        setTimeout(function () {
+          $("#main").ready(function () {
+            $("#splash").remove();
+            window.location.href = "home.html";
+          });
+        }, 2000);
+      }
+    </script>
+  </head>
+  <body>
+    <div
+      id="splash"
+      style="
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        z-index: 10;
+      "
+    >
+      <!--Put splash here-->
+      <img
+        src="https://i.ibb.co/2s6Ss8Z/1523622008-03-removebg-preview.png"
+        border="0"
+        class="center"
+      />
+    </div>
+    <div id="main">
+      <!-- keep empty -->
+    </div>
+  </body>
+</html>

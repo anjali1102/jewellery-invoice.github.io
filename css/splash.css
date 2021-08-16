@@ -1,0 +1,14 @@
+@import url("https://codepen.io/MacEvelly/pen/iJGCw.css");
+
+#splash{
+  position:absolute;
+  border:3px solid black;
+  height:300px;
+  width:400px;
+  margin:auto;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  background:white;
+}

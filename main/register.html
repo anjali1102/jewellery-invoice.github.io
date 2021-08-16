@@ -1,0 +1,81 @@
+<!-- 3 page register -->
+<!DOCTYPE html>
+<html lan="en">
+  <head meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/register.css" />
+    <script src="../js/register.js"></script>
+  </head>
+
+  <body>
+    <form>
+      <div class="formContainer">
+        <h1>REGISTER</h1>
+        <hr />
+        <label for="name"
+          ><b>Name <i>(Required)</i></b></label
+        >
+        <input type="text" placeholder="Enter Your Name" name="name" required />
+        <label for="contact"
+          ><b>Contact <i>(Required)</i></b></label
+        >
+        <input
+          id="register_num"
+          type="text"
+          name="+91"
+          placeholder="Enter Phone Number"
+          name="contact"
+          maxlength="10"
+          pattern="[1-9]{1}[0-9]{9}"
+          required
+        />
+        <label for="companydetails"><b>Company Details</b></label>
+        <input
+          type="text"
+          placeholder="enter company name (Required)"
+          name="companydetails"
+          required
+        />
+        <input
+          type="text"
+          placeholder="address line 1 (Required)"
+          name="addressline1"
+          required
+        /><br />
+        <input
+          type="text"
+          placeholder="address line 2"
+          name="addressline2"
+        /><br />
+        <input
+          type="text"
+          placeholder="Enter state (Required)"
+          name="state"
+          required
+        /><br />
+        <input
+          type="text"
+          placeholder="Enter pincode (Required)"
+          name="pincode"
+          maxlength="06"
+          required
+        /><br />
+        <label>
+          <input
+            type="checkbox"
+            checked="checked"
+            name="remember"
+            style="margin-bottom: 15px"
+          />
+          Remember me
+        </label>
+
+        <div>
+          <a class="Register_submit" align="center" href="custumer.html"
+            >Submit</a
+          >
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

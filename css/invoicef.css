@@ -1,0 +1,51 @@
+/* content editable */
+
+*[contenteditable] {
+  border-radius: 0.25em;
+  min-width: 1em;
+  outline: 0;
+}
+
+*[contenteditable] {
+  cursor: pointer;
+}
+
+*[contenteditable]:hover,
+*[contenteditable]:focus,
+td:hover *[contenteditable],
+td:focus *[contenteditable],
+img.hover {
+  background: #def;
+  box-shadow: 0 0 1em 0.5em #def;
+}
+
+span[contenteditable] {
+  display: inline-block;
+}
+/* heading */
+
+/* h1 { font: bold 100% sans-serif; letter-spacing: 0.5em; text-align: center; text-transform: uppercase; } */
+header:h1 {
+  text-align: center;
+  background-color: darkred;
+}
+
+.next_button {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.next_button_container {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+
+

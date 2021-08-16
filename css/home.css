@@ -1,0 +1,89 @@
+/* .submit1, .submit2 { */
+/* width: 90px; */
+/* cursor: pointer; */
+/* border-radius: 0.7em; */
+/* color: white; */
+/* background: linear-gradient(to right, #9c27b0, #e040fb); */
+/* background: black; */
+/* border: 0; */
+/* padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: "Ubuntu", sans-serif;
+    margin-left: 35%;
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    text-align: center;
+  }
+  .button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; Green 
+  }
+  /* .submit1{
+    width:90px;
+  }
+  .submit2{
+    width:90px;
+  } */
+form {
+  margin-top: 500px;
+  text-align: justify;
+}
+body {
+  background-image: url("../img/homepage.jpg");
+  width: auto;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+button {
+  display: inline-block;
+  background-color: #7b38d8;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  width: 195px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: #f7c2f9;
+}
+button:hover span {
+  padding-right: 25px;
+}
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* .container {
+  height: 100vh;
+} */
+
+.button_container {
+  display: grid;
+  justify-content: center;
+  margin-top: 90px;
+}
